@@ -1,7 +1,25 @@
 aid: mosaic-building-group
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/mosaic-building-group.png
 name: Mosaic Building Group
-description: Mosaic Building Group is a company surfaced as a portfolio company of a16z and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Mosaic (Mosaic Building Group) is a full-stack construction technology company founded in
+  2017 and headquartered in Phoenix, Arizona. It is a national leader in build-to-rent residential
+  construction and pre-development, pairing in-house software with local homebuilding partners to
+  deliver personalized homes faster and at lower cost across Arizona and Texas. Its Mosaic Hub platform
+  applies AI to construction planning and operations management. Backed by a16z (Series A lead) alongside
+  Greylock, Innovation Endeavors, Founders Fund, Thrive Capital, SV Angel, and 8VC. Mosaic operates as a
+  hybrid construction-plus-software business and does not publish a public developer API, developer
+  portal, or API documentation at this time.
 url: https://raw.githubusercontent.com/api-evangelist/mosaic-building-group/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +29,32 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Construction Technology
+- Build-to-Rent
+- PropTech
+- Real Estate
+- Homebuilding
+- Construction Management
+common:
+- type: DomainSecurity
+  url: security/mosaic-building-group-domain-security.yml
+- type: Website
+  url: https://mosaic.us/
+- type: About
+  url: https://mosaic.us/about-us
+- type: Careers
+  url: https://mosaic.us/careers
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
