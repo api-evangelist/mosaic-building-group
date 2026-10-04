@@ -46,7 +46,7 @@ tags:
 - Construction Technology
 - Build-to-Rent
 - PropTech
-- Real-Estate
+- Real Estate
 - Homebuilding
 - Construction Management
 tags_raw:
@@ -57,6 +57,7 @@ tags_raw:
 - Real Estate
 - Homebuilding
 - Construction Management
+- Real-Estate
 common:
 - type: DomainSecurity
   url: security/mosaic-building-group-domain-security.yml
